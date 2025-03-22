@@ -1,0 +1,38 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+}
+.first{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    text-align: left;
+}
+.right{
+    position: absolute;
+    text-align: right;
+    left: 100px;
+
+}
+.name{
+    background-color:gray;
+    font-size:x-large;
+    text-align: center;
+    max-width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px;
+
+}
